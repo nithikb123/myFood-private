@@ -1,0 +1,24 @@
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Food Type</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td><span>{{menu.Id}}</span></td>
+                <td><span>{{menu.Name}}</span></td>
+                <td><span>{{menu.Description}}</span></td>
+                <td><span>{{menu.FoodType}}</span></td>
+                <td><span>{{menu.Price}}</span></td>
+                <td><span>{{menu.Availability}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
